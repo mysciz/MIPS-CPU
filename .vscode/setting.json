@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.do": "tcl",
+        "*.tcl": "tcl",
+        "*.sv": "systemverilog",
+        "*.v": "verilog"
+    }
+}

@@ -1,0 +1,401 @@
+# do scripts/run_mips.do
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work ./out/work 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:18:58 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/PC.v 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 09:18:58 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:18:58 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 09:18:58 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:18:58 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/RF.v 
+# -- Compiling module RF
+# 
+# Top level modules:
+# 	RF
+# End time: 09:18:58 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:18:59 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/SigExt16_32.v 
+# -- Compiling module SigExt16_32
+# 
+# Top level modules:
+# 	SigExt16_32
+# End time: 09:18:59 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:18:59 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/ALUCU.v 
+# -- Compiling module ALUCU
+# 
+# Top level modules:
+# 	ALUCU
+# End time: 09:18:59 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:18:59 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/MUX_2.v 
+# -- Compiling module MUX_2
+# 
+# Top level modules:
+# 	MUX_2
+# End time: 09:18:59 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:00 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/SHL2.v 
+# -- Compiling module SHL
+# 
+# Top level modules:
+# 	SHL
+# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:00 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/MUX_4.v 
+# -- Compiling module MUX_4
+# 
+# Top level modules:
+# 	MUX_4
+# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:00 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/Reg32.v 
+# -- Compiling module Reg32
+# 
+# Top level modules:
+# 	Reg32
+# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:00 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/IR.v 
+# -- Compiling module IR
+# 
+# Top level modules:
+# 	IR
+# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:00 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/DataPath.v 
+# -- Compiling module PC
+# -- Compiling module ALU
+# -- Compiling module RF
+# -- Compiling module SigExt16_32
+# -- Compiling module ALUCU
+# -- Compiling module MUX_2
+# -- Compiling module SHL
+# -- Compiling module MUX_4
+# -- Compiling module Reg32
+# -- Compiling module IR
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:01 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/CU.v 
+# -- Compiling module CU
+# 
+# Top level modules:
+# 	CU
+# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:01 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/MEM.v 
+# -- Compiling module MEM
+# 
+# Top level modules:
+# 	MEM
+# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:01 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/SR.v 
+# -- Compiling module SR
+# 
+# Top level modules:
+# 	SR
+# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:01 on Dec 19,2025
+# vlog -reportprogress 300 -work work ./src/MIPS.v 
+# -- Compiling module PC
+# -- Compiling module ALU
+# -- Compiling module RF
+# -- Compiling module SigExt16_32
+# -- Compiling module ALUCU
+# -- Compiling module MUX_2
+# -- Compiling module SHL
+# -- Compiling module MUX_4
+# -- Compiling module Reg32
+# -- Compiling module IR
+# -- Compiling module DataPath
+# -- Compiling module CU
+# -- Compiling module MEM
+# -- Compiling module SR
+# -- Compiling module MIPS
+# 
+# Top level modules:
+# 	MIPS
+# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 09:19:02 on Dec 19,2025
+# vlog -reportprogress 300 -work work -sv ./sim/mips_tb.sv 
+# -- Compiling module mips_tb
+# 
+# Top level modules:
+# 	mips_tb
+# End time: 09:19:02 on Dec 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -wlf ./out/mips_test.wlf -voptargs=""+acc"" work.mips_tb 
+# Start time: 09:19:02 on Dec 19,2025
+# //  ModelSim DE-64 10.6c Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.mips_tb
+# Loading work.MIPS
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.MUX_2
+# Loading work.MUX_4
+# Loading work.Reg32
+# Loading work.IR
+# Loading work.RF
+# Loading work.SigExt16_32
+# Loading work.SHL
+# Loading work.ALU
+# Loading work.ALUCU
+# Loading work.MEM
+# Loading work.CU
+# Loading work.SR
+# ========================================
+# MIPS CPU 指令流监控
+# ========================================
+# 期望的结束循环指令: 0x08100017 (j指令)
+# 对应跳转地址: 0x0040005C
+# 格式: [Cycle] PC=0x, Inst=0x, ALU_Out=0x
+# ========================================
+# [Cycle 0] PC=0x00000000, Inst=0x20080005, ALU_Out=0x00000004
+#       ↳ ADDI指令：$8 = $0 + 0x00000005
+# [Cycle 4] PC=0x00000004, Inst=0x20090003, ALU_Out=0x00000008
+#       ↳ ADDI指令：$9 = $0 + 0x00000003
+# [Cycle 8] PC=0x00000008, Inst=0x01095020, ALU_Out=0x0000000c
+#       ↳ ADD指令
+# [Cycle 12] PC=0x0000000c, Inst=0x01095822, ALU_Out=0x00000010
+#       ↳ SUB指令
+# [Cycle 16] PC=0x00000010, Inst=0x01096024, ALU_Out=0x00000014
+#       ↳ AND指令
+# [Cycle 20] PC=0x00000014, Inst=0x01096825, ALU_Out=0x00000018
+#       ↳ OR指令
+# [Cycle 24] PC=0x00000018, Inst=0x01097026, ALU_Out=0x0000001c
+#       ↳ XOR指令
+# [Cycle 28] PC=0x0000001c, Inst=0x01097827, ALU_Out=0x00000020
+#       ↳ NOR指令
+# [Cycle 32] PC=0x00000020, Inst=0x0128c02a, ALU_Out=0x00000024
+#       ↳ SLT指令
+# [Cycle 36] PC=0x00000024, Inst=0x201000ff, ALU_Out=0x00000028
+#       ↳ ADDI指令：$16 = $0 + 0x000000ff
+# [Cycle 40] PC=0x00000028, Inst=0x3211000f, ALU_Out=0x0000002c
+#       ↳ ANDI指令
+# [Cycle 44] PC=0x0000002c, Inst=0x361200f0, ALU_Out=0x00000030
+#       ↳ ORI指令
+# [Cycle 48] PC=0x00000030, Inst=0x3a1300aa, ALU_Out=0x00000034
+#       ↳ XORI指令
+# --- 状态报告 [周期 50] ---
+# 当前状态 S = 0010
+# 指令执行数 = 13
+# 最后指令 = 0x3a1300aa
+# 连续相同指令 = 0 次
+# ------------------------
+# [Cycle 52] PC=0x00000034, Inst=0xac080000, ALU_Out=0x00000038
+#       ↳ SW指令：mem[$0 + 0x00000000] = $8
+# [Cycle 57] PC=0x00000038, Inst=0x8c140000, ALU_Out=0x0000003c
+#       ↳ LW指令：$20 = mem[$0 + 0x00000000]
+# [Cycle 60] PC=0x00000000, Inst=0x20080005, ALU_Out=0x00000000
+#       ↳ ADDI指令：$8 = $0 + 0x00000005
+# [Cycle 63] PC=0x0000003c, Inst=0x201a0001, ALU_Out=0x00000040
+#       ↳ ADDI指令：$26 = $0 + 0x00000001
+# [Cycle 67] PC=0x00000040, Inst=0x135a0003, ALU_Out=0x00000044
+#       ↳ BEQ指令：比较 $26 和 $26
+# [Cycle 70] PC=0x00000050, Inst=0xac1a000c, ALU_Out=0x00000000
+#       ↳ SW指令：mem[$0 + 0x0000000c] = $26
+# [Cycle 75] PC=0x00000054, Inst=0x08100017, ALU_Out=0x00000058
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 78] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x0000005c
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 81] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 84] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 87] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ 循环中：指令 0x08100017 连续执行3次
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 90] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 93] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 96] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 99] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# --- 状态报告 [周期 100] ---
+# 当前状态 S = 0001
+# 指令执行数 = 28
+# 最后指令 = 0x08100017
+# 连续相同指令 = 8 次
+# 正在执行的指令: 0x08100017
+# 指令类型: J (跳转到 0x040005c)
+# ------------------------
+# [Cycle 102] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 105] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 108] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ 循环中：指令 0x08100017 连续执行10次
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 111] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 114] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 117] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 120] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 123] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 126] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 129] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 132] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 135] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 138] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ 循环中：指令 0x08100017 连续执行20次
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 141] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 144] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 147] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 150] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# --- 状态报告 [周期 150] ---
+# 当前状态 S = 0000
+# 指令执行数 = 44
+# 最后指令 = 0x08100017
+# 连续相同指令 = 24 次
+# 正在执行的指令: 0x08100017
+# 指令类型: J (跳转到 0x040005c)
+# ------------------------
+# [Cycle 153] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 156] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 159] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 162] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 165] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 168] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 171] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 174] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 177] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 180] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 183] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 186] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 189] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 192] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# [Cycle 195] PC=0x0040005c, Inst=0x08100017, ALU_Out=0x00400064
+#       ↳ J指令：目标地址 = 0x0040005c
+#       ↳ ✓ 成功循环指令！跳转到0x0040005C
+# printing wave to file ./out/mips_test.do
+# Unrecognized paper size (Letter), using Custom
+# 0 ps
+# 2100 ns

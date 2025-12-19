@@ -1,0 +1,364 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/mybook/junior/course/ComputerOrganization/MIPS_CPU/multicycle
+vALU
+Z1 !s110 1766107141
+!i10b 1
+!s100 =oXCN6do7gLIG3BePK>4?1
+INOQ]5HHAEb^Y0`eb;ZSVU1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1765712471
+8.\src\ALU.v
+F.\src\ALU.v
+L0 3
+Z3 OP;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1766107141.000000
+Z5 !s107 .\src\SR.v|.\src\MEM.v|.\src\CU.v|.\src\IR.v|.\src\Reg32.v|.\src\MUX_4.v|.\src\SHL2.v|.\src\MUX_2.v|.\src\ALUCU.v|.\src\SigExt16_32.v|.\src\RF.v|.\src\ALU.v|.\src\PC.v|.\src\DataPath.v|./src/MIPS.v|
+Z6 !s90 -reportprogress|300|-work|work|./src/MIPS.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@l@u
+vALUCU
+R1
+!i10b 1
+!s100 m4@W4[6oVbCEV`HFcz_Aj3
+IK42IMZ?DGo_^F]CVk8zSJ1
+R2
+R0
+w1766030041
+8.\src\ALUCU.v
+F.\src\ALUCU.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@a@l@u@c@u
+vCU
+R1
+!i10b 1
+!s100 Ye3[J>0iOl3l569gi7SUf0
+I`1mUQCg^I3g2dSMWa[kP23
+R2
+R0
+w1766030254
+8.\src\CU.v
+F.\src\CU.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@c@u
+vDataPath
+R1
+!i10b 1
+!s100 ZD2]<Hnc_9n_fBDX7:X8:0
+IXBQ7Ocli4PA3dIKa1`=;I2
+R2
+R0
+w1766030004
+8.\src\DataPath.v
+F.\src\DataPath.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@data@path
+vIR
+R1
+!i10b 1
+!s100 `MVK21??UJj20Hi@6E2GT0
+IM95]z7TVB2;jbg4bmgHc`3
+R2
+R0
+w1765844902
+8.\src\IR.v
+F.\src\IR.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@i@r
+vMEM
+R1
+!i10b 1
+!s100 TaP@Se^_E2<>VGF`PO2ed2
+IJYoRHMDTkFdC[gkkY]AS00
+R2
+R0
+w1766105868
+8.\src\MEM.v
+F.\src\MEM.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@m@e@m
+vMIPS
+R1
+!i10b 1
+!s100 aHA=lDGmTZ7XD@Mm7YO<62
+IFCmXljgBL0j5kFRiMS3A12
+R2
+R0
+w1766026478
+8./src/MIPS.v
+F./src/MIPS.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@m@i@p@s
+vmips_tb
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1766107142
+!i10b 1
+!s100 kWI5166c9FRcAaL2=;4Jz3
+IHRjlZO`7e7G0C4;WGon<:2
+R2
+!s105 mips_tb_sv_unit
+S1
+R0
+w1766106807
+8./sim/mips_tb.sv
+F./sim/mips_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1766107142.000000
+!s107 ./sim/mips_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|./sim/mips_tb.sv|
+!i113 1
+o-work work -sv
+R8
+vMUX_2
+R1
+!i10b 1
+!s100 emnohGaW=4`bHC^?i;M141
+I35?Joz?k]U=jNb^6HG6`02
+R2
+R0
+w1765750960
+8.\src\MUX_2.v
+F.\src\MUX_2.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@m@u@x_2
+vMUX_4
+R1
+!i10b 1
+!s100 ToU?>SYJDaW54i@4;TdX<1
+IAAGbS6^WURgz1gH_3?0CZ0
+R2
+R0
+w1765751751
+8.\src\MUX_4.v
+F.\src\MUX_4.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@m@u@x_4
+vPC
+R1
+!i10b 1
+!s100 Y06RHY]F`O:0OK2ajKB?H3
+I7hC9@odj8[AfQZPD@NcRA3
+R2
+R0
+w1765985731
+8.\src\PC.v
+F.\src\PC.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@p@c
+vReg32
+R1
+!i10b 1
+!s100 WeO5l5iaY>IIg6@MU[>@92
+I@zbH0b7<1GAIT@OTmcB9K3
+R2
+R0
+w1765751847
+8.\src\Reg32.v
+F.\src\Reg32.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@reg32
+vRF
+R1
+!i10b 1
+!s100 I3IUgJ0j:U>]0PK@A@f0e1
+I7gBLV0lh3KG7ZgUC]cD^^0
+R2
+R0
+w1765670423
+8.\src\RF.v
+F.\src\RF.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@r@f
+vSHL
+R1
+!i10b 1
+!s100 :6koe`f`fOV@BE1eW?K]51
+I^cEVlbBJ8_e5`J?EQ0Nl;1
+R2
+R0
+w1765689038
+8.\src\SHL2.v
+F.\src\SHL2.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@s@h@l
+vSigExt16_32
+R1
+!i10b 1
+!s100 U9e=G>VlVc1_[JFfmP5Zn3
+IEo[`AQP5oL6N0Ul@B@`8^0
+R2
+R0
+w1764930056
+8.\src\SigExt16_32.v
+F.\src\SigExt16_32.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@sig@ext16_32
+vSR
+R1
+!i10b 1
+!s100 jf1IjKI`hz?DCI3INHzaS1
+I]6eZ@?BC5]KI5A`nMZ`bT1
+R2
+R0
+w1765753694
+8.\src\SR.v
+F.\src\SR.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+n@s@r
