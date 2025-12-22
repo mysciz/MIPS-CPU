@@ -47,6 +47,8 @@ vlog -work work ./src/MIPS.v
 puts "编译测试平台..."
 vlog -work work -sv ./sim/mips_tb.sv
 
+
+
 # 7. 开始仿真
 puts "开始仿真..."
 vsim -wlf ./out/mips_test.wlf -voptargs="+acc" work.mips_tb
@@ -73,7 +75,9 @@ add wave -divider "===== 监控信息 ====="
 add wave -decimal -color cyan -label "周期数" /mips_tb/total_cycles
 add wave -decimal -label "相同指令计数" /mips_tb/same_inst_count
 add wave -decimal -label "指令计数" /mips_tb/inst_count
-
+# 9. 开启VCD记录（可选）
+vcd file ./out/mips_test.vcd
+vcd add /mips_tb/*
 # 9. 运行仿真
 puts "开始指令流监控..."
 puts "期望循环指令: 0x08100017 (j指令)"

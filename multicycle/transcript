@@ -3,97 +3,97 @@
 # vmap work ./out/work 
 # Modifying modelsim.ini
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:18:58 on Dec 19,2025
+# Start time: 19:21:19 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/PC.v 
 # -- Compiling module PC
 # 
 # Top level modules:
 # 	PC
-# End time: 09:18:58 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:19 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:18:58 on Dec 19,2025
+# Start time: 19:21:19 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/ALU.v 
 # -- Compiling module ALU
 # 
 # Top level modules:
 # 	ALU
-# End time: 09:18:58 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:19 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:18:58 on Dec 19,2025
+# Start time: 19:21:19 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/RF.v 
 # -- Compiling module RF
 # 
 # Top level modules:
 # 	RF
-# End time: 09:18:58 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:20 on Dec 19,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:18:59 on Dec 19,2025
+# Start time: 19:21:20 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/SigExt16_32.v 
 # -- Compiling module SigExt16_32
 # 
 # Top level modules:
 # 	SigExt16_32
-# End time: 09:18:59 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:20 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:18:59 on Dec 19,2025
+# Start time: 19:21:20 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/ALUCU.v 
 # -- Compiling module ALUCU
 # 
 # Top level modules:
 # 	ALUCU
-# End time: 09:18:59 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:20 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:18:59 on Dec 19,2025
+# Start time: 19:21:20 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/MUX_2.v 
 # -- Compiling module MUX_2
 # 
 # Top level modules:
 # 	MUX_2
-# End time: 09:18:59 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:20 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:00 on Dec 19,2025
+# Start time: 19:21:21 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/SHL2.v 
 # -- Compiling module SHL
 # 
 # Top level modules:
 # 	SHL
-# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:21 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:00 on Dec 19,2025
+# Start time: 19:21:21 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/MUX_4.v 
 # -- Compiling module MUX_4
 # 
 # Top level modules:
 # 	MUX_4
-# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:21 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:00 on Dec 19,2025
+# Start time: 19:21:21 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/Reg32.v 
 # -- Compiling module Reg32
 # 
 # Top level modules:
 # 	Reg32
-# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:21 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:00 on Dec 19,2025
+# Start time: 19:21:21 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/IR.v 
 # -- Compiling module IR
 # 
 # Top level modules:
 # 	IR
-# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:21 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:00 on Dec 19,2025
+# Start time: 19:21:21 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/DataPath.v 
 # -- Compiling module PC
 # -- Compiling module ALU
@@ -109,37 +109,37 @@
 # 
 # Top level modules:
 # 	DataPath
-# End time: 09:19:00 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:21 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:01 on Dec 19,2025
+# Start time: 19:21:22 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/CU.v 
 # -- Compiling module CU
 # 
 # Top level modules:
 # 	CU
-# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:22 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:01 on Dec 19,2025
+# Start time: 19:21:22 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/MEM.v 
 # -- Compiling module MEM
 # 
 # Top level modules:
 # 	MEM
-# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:22 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:01 on Dec 19,2025
+# Start time: 19:21:22 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/SR.v 
 # -- Compiling module SR
 # 
 # Top level modules:
 # 	SR
-# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:22 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:01 on Dec 19,2025
+# Start time: 19:21:22 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/MIPS.v 
 # -- Compiling module PC
 # -- Compiling module ALU
@@ -159,19 +159,19 @@
 # 
 # Top level modules:
 # 	MIPS
-# End time: 09:19:01 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:22 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:19:02 on Dec 19,2025
+# Start time: 19:21:22 on Dec 19,2025
 # vlog -reportprogress 300 -work work -sv ./sim/mips_tb.sv 
 # -- Compiling module mips_tb
 # 
 # Top level modules:
 # 	mips_tb
-# End time: 09:19:02 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:21:22 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -wlf ./out/mips_test.wlf -voptargs=""+acc"" work.mips_tb 
-# Start time: 09:19:02 on Dec 19,2025
+# Start time: 19:21:23 on Dec 19,2025
 # //  ModelSim DE-64 10.6c Jul 26 2017
 # //
 # //  Copyright 1991-2017 Mentor Graphics Corporation
@@ -202,6 +202,11 @@
 # Loading work.MEM
 # Loading work.CU
 # Loading work.SR
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: ./out/mips_test.wlf
+#           File in use by: 20174  Hostname: SCIZ  ProcessID: 11000
+#           Attempting to use alternate WLF file "./out/wlfty1q88y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: ./out/mips_test.wlf
+#           Using alternate file: ./out/wlfty1q88y
 # ========================================
 # MIPS CPU 指令流监控
 # ========================================

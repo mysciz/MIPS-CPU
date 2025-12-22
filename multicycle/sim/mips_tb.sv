@@ -12,6 +12,16 @@ module mips_tb;
     wire [3:0] NS;
     wire [3:0] S;
     
+    // ================================================
+    // 新增：用于波形显示的寄存器
+    // 这些寄存器只在测试平台内部使用，不会影响MIPS模块
+    // ================================================
+    reg [31:0] inst_reg;      // 存储inst信号
+    reg [31:0] addr_reg;      // 存储addr信号
+    reg [31:0] alu_out_reg;   // 存储alu_out信号
+    reg [3:0] NS_reg;         // 存储NS信号
+    reg [3:0] S_reg;          // 存储S信号
+    
     // 测试控制
     integer total_cycles;
     integer inst_count;
@@ -30,6 +40,17 @@ module mips_tb;
         .S(S)
     );
     
+    // ================================================
+    // 新增：将wire信号赋值给寄存器
+    // ================================================
+    always @(posedge clk) begin
+        inst_reg <= inst;        // 将inst存入寄存器
+        addr_reg <= addr;        // 将addr存入寄存器
+        alu_out_reg <= alu_out;  // 将alu_out存入寄存器
+        NS_reg <= NS;            // 将NS存入寄存器
+        S_reg <= S;              // 将S存入寄存器
+    end
+    
     // 时钟生成：10ns周期，50%占空比
     initial begin
         clk = 0;
@@ -45,6 +66,13 @@ module mips_tb;
         last_inst = 32'h0;
         same_inst_count = 0;
         expected_jump_inst = 32'h08100017;  // 修正：期望的跳转指令是08100017
+        
+        // 初始化寄存器
+        inst_reg = 32'h0;
+        addr_reg = 32'h0;
+        alu_out_reg = 32'h0;
+        NS_reg = 4'b0;
+        S_reg = 4'b0;
         
         // 应用复位
         #20 rst = 0;
@@ -201,7 +229,7 @@ module mips_tb;
             if (last_inst[31:26] == 6'b000010) begin  // j指令
                 $display("  指令类型: J (无条件跳转)");
                 $display("  目标地址字段: 0x%h", last_inst[25:0]);
-                $display("  完整跳转地址: 0x%h", {addr[31:28], last_inst[25:0], 2'b00});
+                $display("  完整跳转地址: 0x%h", {addr_reg[31:28], last_inst[25:0], 2'b00});
                 
                 if (last_inst == expected_jump_inst) begin
                     $display("  ✓ 与期望的循环指令一致");

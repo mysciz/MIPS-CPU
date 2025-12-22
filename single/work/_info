@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 dE:/mybook/junior/course/ComputerOrganization/MIPS_CPU/single
 vADD
-Z1 !s110 1766142233
+Z1 !s110 1766142114
 !i10b 1
 !s100 h@Ffl:1[CD6TV0DVJm1Uh0
-IKiUU07d80jNnL?QWU:nnh3
+I?N8ND4HCmE=UX8Zd]bI[d3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1764929243
@@ -23,18 +23,17 @@ Z3 OP;L;10.6c;65
 r1
 !s85 0
 31
-Z4 !s108 1766142233.000000
-Z5 !s107 .\src\IM.v|.\src\DM.v|.\src\CU.v|.\src\SHL2.v|.\src\MUX.v|.\src\ADD.v|.\src\ALUCU.v|.\src\SigExt16_32.v|.\src\RF.v|.\src\ALU.v|.\src\PC.v|.\src\DataPath.v|./src/MIPS.v|
-Z6 !s90 -reportprogress|300|-work|work|./src/MIPS.v|
+Z4 !s108 1766142114.000000
+Z5 !s107 .\src\IM.v|.\src\DM.v|.\src\CU.v|.\src\DataPath.v|.\src\SHL2.v|.\src\MUX.v|.\src\ADD.v|.\src\ALUCU.v|.\src\SigExt16_32.v|.\src\RF.v|.\src\ALU.v|.\src\PC.v|./src/SigExt16_32.v|./src/SHL2.v|./src/RF.v|./src/PC.v|./src/MUX.v|./src/MIPS.v|./src/IM.v|./src/DataPath.v|./src/DM.v|./src/CU_simple.v|./src/CU.v|./src/ALUCU_simple.v|./src/ALUCU.v|./src/ALU.v|./src/ADD.v|
+Z6 !s90 -reportprogress|300|./src/ADD.v|./src/ALU.v|./src/ALUCU.v|./src/ALUCU_simple.v|./src/CU.v|./src/CU_simple.v|./src/DM.v|./src/DataPath.v|./src/IM.v|./src/MIPS.v|./src/MUX.v|./src/PC.v|./src/RF.v|./src/SHL2.v|./src/SigExt16_32.v|
 !i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
+Z7 tCvgOpt 0
 n@a@d@d
 vALU
 R1
 !i10b 1
 !s100 =oXCN6do7gLIG3BePK>4?1
-INOQ]5HHAEb^Y0`eb;ZSVU1
+IHnO=0We2BQO_Lkda6>gkz0
 R2
 R0
 w1765712471
@@ -50,13 +49,12 @@ R5
 R6
 !i113 1
 R7
-R8
 n@a@l@u
 vALUCU
 R1
 !i10b 1
 !s100 m4@W4[6oVbCEV`HFcz_Aj3
-IK42IMZ?DGo_^F]CVk8zSJ1
+IQ7Sd`C?Dl62fXN3`cGM4W0
 R2
 R0
 w1766107321
@@ -72,13 +70,12 @@ R5
 R6
 !i113 1
 R7
-R8
 n@a@l@u@c@u
 vCU
 R1
 !i10b 1
 !s100 kNi`YedEcUMB3CK=n@V;=2
-IzH[VGfz<XSMRLClRn79lG2
+I@k6ki:jc8jdnzZ]^D<9oj3
 R2
 R0
 w1766107567
@@ -94,13 +91,12 @@ R5
 R6
 !i113 1
 R7
-R8
 n@c@u
 vDataPath
 R1
 !i10b 1
 !s100 I6cJ9EIMB8[LGoI_do^S61
-I42SCkY@_jmLJ`7n[32m>`2
+IPc1<T]]4zCaf@3E0k>HYE3
 R2
 R0
 w1766107451
@@ -116,13 +112,12 @@ R5
 R6
 !i113 1
 R7
-R8
 n@data@path
 vDM
 R1
 !i10b 1
 !s100 VDWMlXlM2Wcg]9<f_RHcK2
-I:<PIZZT[5Y_CX]NKzNQ_N3
+Ii>1Oj0VNai5F[lUk>K:NA2
 R2
 R0
 w1765691845
@@ -138,13 +133,12 @@ R5
 R6
 !i113 1
 R7
-R8
 n@d@m
 vIM
 R1
 !i10b 1
 !s100 Xmz29_[D`4k^?KlM>8L:?2
-IiL5PLF]W]T8nO9KZ2LG:U0
+IVC>>6d;U=^_1PDVX`A`J>2
 R2
 R0
 w1766108823
@@ -160,13 +154,12 @@ R5
 R6
 !i113 1
 R7
-R8
 n@i@m
 vMIPS
 R1
 !i10b 1
 !s100 Sh2jnzDNN?L9U3YKOElIL3
-IGK6>TXH_1Lh40Ildh3FHE2
+IPm>H]NDk7hn7Q[:eG2A^L0
 R2
 R0
 w1766107417
@@ -182,14 +175,13 @@ R5
 R6
 !i113 1
 R7
-R8
 n@m@i@p@s
 vmips_tb
 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-R1
+!s110 1766142115
 !i10b 1
 !s100 QA:2g>CA3PLTY[<iCzTXH1
-ITl7BUF]c?SH0CK_kQ`9Bb2
+IRXHl8k`FJ1n1Zf`ZkA?d`0
 R2
 !s105 mips_tb_sv_unit
 S1
@@ -202,22 +194,21 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1766142115.000000
 !s107 ./sim/mips_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|./sim/mips_tb.sv|
+!s90 -reportprogress|300|./sim/mips_tb.sv|
 !i113 1
-o-work work -sv
-R8
+R7
 vMUX
 R1
 !i10b 1
 !s100 [K9e]@a7>N0<;kghcG?d_2
-Ik;3o;SD1cdAj3?>M;Po>a1
+I<0P>[XbHUDKGl?2MlMJHe1
 R2
 R0
 w1764933002
-8.\src\MUX.v
-F.\src\MUX.v
+8./src/MUX.v
+F./src/MUX.v
 L0 3
 R3
 r1
@@ -228,18 +219,17 @@ R5
 R6
 !i113 1
 R7
-R8
 n@m@u@x
 vPC
 R1
 !i10b 1
 !s100 OX?I4Q?bNS]K:gJo9BKO22
-I9??XiLl84XgLO:NXAh9TU1
+IghA=2kz<JlU25H4h9jzX[2
 R2
 R0
 w1765751865
-8.\src\PC.v
-F.\src\PC.v
+8./src/PC.v
+F./src/PC.v
 L0 2
 R3
 r1
@@ -250,18 +240,17 @@ R5
 R6
 !i113 1
 R7
-R8
 n@p@c
 vRF
 R1
 !i10b 1
 !s100 I3IUgJ0j:U>]0PK@A@f0e1
-I7gBLV0lh3KG7ZgUC]cD^^0
+IzbAO^6aV5VEb>SJEBjUAg1
 R2
 R0
 w1765670423
-8.\src\RF.v
-F.\src\RF.v
+8./src/RF.v
+F./src/RF.v
 L0 3
 R3
 r1
@@ -272,18 +261,17 @@ R5
 R6
 !i113 1
 R7
-R8
 n@r@f
 vSHL2
 R1
 !i10b 1
 !s100 KNmHd6k4cJZf:eJBmBWYA2
-IGm@DBlgL0lLCIXUh=X:Ln0
+IKfREJc9K_:O1i:@M]Q9OQ1
 R2
 R0
 w1765983009
-8.\src\SHL2.v
-F.\src\SHL2.v
+8./src/SHL2.v
+F./src/SHL2.v
 L0 3
 R3
 r1
@@ -294,18 +282,17 @@ R5
 R6
 !i113 1
 R7
-R8
 n@s@h@l2
 vSigExt16_32
 R1
 !i10b 1
 !s100 U9e=G>VlVc1_[JFfmP5Zn3
-IEo[`AQP5oL6N0Ul@B@`8^0
+IKDP[_:OM?SZ5PcMiGlflS2
 R2
 R0
 w1764930056
-8.\src\SigExt16_32.v
-F.\src\SigExt16_32.v
+8./src/SigExt16_32.v
+F./src/SigExt16_32.v
 L0 3
 R3
 r1
@@ -316,5 +303,4 @@ R5
 R6
 !i113 1
 R7
-R8
 n@sig@ext16_32

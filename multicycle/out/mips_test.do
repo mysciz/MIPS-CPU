@@ -1,7 +1,7 @@
 %!PS-Adobe-3.0
 %%Creator: Model Technology ModelSim DE-64 vsim 10.6c Simulator 2017.07 Jul 26 2017
 %%Title: ./out/mips_test.do
-%%CreationDate: 2025-12-19 09:19:13 am
+%%CreationDate: 2025-12-19 07:21:34 pm
 %%DocumentData: Clean8Bit
 %%DocumentNeededResources: font Helvetica
 %%Orientation: Landscape
@@ -210,7 +210,7 @@ gsave
 1280 1448 MT 1280 1448 LT 2417 1448 LT ST
 1280 1520 MT 1280 1520 LT 2417 1520 LT ST
 % draw footer
-(Entity:mips_tb  Architecture:  Date: Fri Dec 19 09:19:13 CST 2025   Row: 1 Page: 1) 9999 LC 118 1888 WT TSW RSS
+(Entity:mips_tb  Architecture:  Date: Fri Dec 19 19:21:34 CST 2025   Row: 1 Page: 1) 9999 LC 118 1888 WT TSW RSS
 grestore
 showpage
 %%Page: 2 2
@@ -342,7 +342,7 @@ gsave
 1280 615 MT 1280 615 LT 2417 615 LT ST
 1280 687 MT 1280 687 LT 2417 687 LT ST
 % draw footer
-(Entity:mips_tb  Architecture:  Date: Fri Dec 19 09:19:13 CST 2025   Row: 1 Page: 2) 9999 LC 118 1888 WT TSW RSS
+(Entity:mips_tb  Architecture:  Date: Fri Dec 19 19:21:34 CST 2025   Row: 1 Page: 2) 9999 LC 118 1888 WT TSW RSS
 grestore
 showpage
 %%EOF

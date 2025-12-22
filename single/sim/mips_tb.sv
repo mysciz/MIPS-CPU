@@ -12,9 +12,14 @@ module mips_tb;
     wire RegDst, Jump, Branch, MemRead, MemtoReg;
     wire [1:0] ALUOp;
     wire MemWrite, ALUSrc, RegWrite;
-    wire [31:0] inst;
+    wire [31:0] inst;           // 保持wire连接
     wire [31:0] W_data;
     wire [31:0] R_data;
+    
+    // 新增：用于波形显示的寄存器
+    reg [31:0] inst_monitor;    // 用于显示inst的32位寄存器
+    reg [31:0] pc_monitor;      // 用于显示pc的32位寄存器
+    reg [31:0] alu_out_monitor; // 用于显示alu_out的32位寄存器
     
     // 测试控制
     integer cycle_count;
@@ -51,6 +56,20 @@ module mips_tb;
         .R_data(R_data)
     );
     
+    // ================================================
+    // 新增：在每个时钟沿捕获信号值到寄存器
+    // ================================================
+    always @(posedge clk) begin
+        inst_monitor <= inst;        // 捕获当前指令
+        pc_monitor <= pc;            // 捕获PC值
+        alu_out_monitor <= alu_out;  // 捕获ALU输出
+    end
+    
+    // 或者使用连续赋值（实时更新，不需要等待时钟沿）
+    // assign inst_monitor = inst;
+    // assign pc_monitor = pc;
+    // assign alu_out_monitor = alu_out;
+    
     // 时钟生成：20ns周期，50%占空比
     initial begin
         clk = 0;
@@ -67,6 +86,9 @@ module mips_tb;
         same_inst_count = 0;
         last_inst = 32'h0;
         rst = 1;
+        inst_monitor = 32'h0;  // 初始化监视器
+        pc_monitor = 32'h0;
+        alu_out_monitor = 32'h0;
         
         // 应用复位
         #20;
@@ -99,27 +121,27 @@ module mips_tb;
         if (!rst) begin
             cycle_count <= cycle_count + 1;
             
-            // 每周期显示关键信息
+            // 修改：使用inst_monitor代替inst
             $display("[Cycle %0d] PC=0x%h, Inst=0x%h, ALU_Out=0x%h", 
-                    cycle_count, pc, inst, alu_out);
+                    cycle_count, pc_monitor, inst_monitor, alu_out_monitor);
             
             // 检测关键跳转指令
-            if (inst == SUCCESS_JUMP) begin
+            if (inst_monitor == SUCCESS_JUMP) begin
                 success_flag = 1;
                 $display("     ✅ 执行成功跳转指令！跳转到success_loop");
-                $display("     ↳ 目标地址: 0x%h", {pc[31:28], inst[25:0], 2'b00});
+                $display("     ↳ 目标地址: 0x%h", {pc_monitor[31:28], inst_monitor[25:0], 2'b00});
             end
             
-            if (inst == FAIL_JUMP) begin
+            if (inst_monitor == FAIL_JUMP) begin
                 fail_flag = 1;
                 $display("     ❌ 执行失败跳转指令！跳转到fail_loop");
-                $display("     ↳ 目标地址: 0x%h", {pc[31:28], inst[25:0], 2'b00});
+                $display("     ↳ 目标地址: 0x%h", {pc_monitor[31:28], inst_monitor[25:0], 2'b00});
             end
             
             // 解码指令类型（简化的输出）
-            case (inst[31:26])
+            case (inst_monitor[31:26])
                 6'b000000: begin // R-type
-                    case (inst[5:0])
+                    case (inst_monitor[5:0])
                         6'b100000: $display("     ↳ ADD");
                         6'b100010: $display("     ↳ SUB");
                         6'b100100: $display("     ↳ AND");
@@ -144,26 +166,26 @@ module mips_tb;
             endcase
             
             // 检查内存写入（成功标记地址0xC）
-            if (pc == 32'h0000003C && inst[31:26] == 6'b101011) begin // sw指令地址
-                if (alu_out == 32'h0000000C) begin
+            if (pc_monitor == 32'h0000003C && inst_monitor[31:26] == 6'b101011) begin // sw指令地址
+                if (alu_out_monitor == 32'h0000000C) begin
                     $display("     ✓ 写入成功标记到地址0xC");
                 end
             end
             
             // 安全停止：检测到循环
-            if (inst == last_inst) begin
+            if (inst_monitor == last_inst) begin
                 same_inst_count <= same_inst_count + 1;
                 if (same_inst_count == 5) begin
-                    $display("     🔄 检测到循环，指令0x%h连续执行%0d次", inst, same_inst_count);
+                    $display("     🔄 检测到循环，指令0x%h连续执行%0d次", inst_monitor, same_inst_count);
                 end
                 if (same_inst_count >= 10) begin
                     $display("     🔄 稳定循环中...");
-                    test_result = (inst == SUCCESS_JUMP) ? 1 : 2;
+                    test_result = (inst_monitor == SUCCESS_JUMP) ? 1 : 2;
                 end
             end else begin
                 same_inst_count <= 0;
             end
-            last_inst <= inst;
+            last_inst <= inst_monitor;
             
             // 安全停止机制
             if (cycle_count > 100) begin
@@ -180,35 +202,19 @@ module mips_tb;
             $display("最终测试结果");
             $display("========================================");
             $display("总执行周期数: %0d", cycle_count);
-            $display("最后执行的指令: 0x%h", inst);
-            $display("最后PC地址: 0x%h", pc);
+            $display("最后执行的指令: 0x%h", inst_monitor);
+            $display("最后PC地址: 0x%h", pc_monitor);
             $display("最大连续相同指令: %0d 次", same_inst_count);
             
             if (test_result == 1) begin
                 $display("\n🎉 测试完全成功！");
                 $display("所有计算验证通过，CPU进入成功循环");
-                $display("CPU功能验证：");
-                $display("  ✅ 算术运算正确 (add, sub, and, or, xor)");
-                $display("  ✅ I-type指令正确 (andi, ori, xori)");
-                $display("  ✅ 内存访问正确 (lw, sw)");
-                $display("  ✅ 分支指令正确 (beq)");
-                $display("  ✅ 跳转指令正确 (j)");
             end else if (test_result == 2) begin
                 $display("\n❌ 测试失败！");
                 $display("某个计算验证失败，CPU进入失败循环");
-                $display("请检查：");
-                $display("  1. ALU计算是否正确");
-                $display("  2. 立即数扩展是否正确");
-                $display("  3. 寄存器文件读写是否正确");
-                $display("  4. 控制信号生成是否正确");
             end else begin
                 $display("\n⚠ 测试未完成");
                 $display("程序未进入预期循环");
-                $display("可能原因：");
-                $display("  1. 分支跳转地址错误");
-                $display("  2. 程序流程异常");
-                $display("  3. 需要更多执行周期");
-                $display("  4. 检查指令存储器内容");
             end
             $display("========================================");
         end

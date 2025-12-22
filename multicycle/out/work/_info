@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dE:/mybook/junior/course/ComputerOrganization/MIPS_CPU/multicycle
 vALU
-Z1 !s110 1766107141
+Z1 !s110 1766143282
 !i10b 1
 !s100 =oXCN6do7gLIG3BePK>4?1
 INOQ]5HHAEb^Y0`eb;ZSVU1
@@ -23,7 +23,7 @@ Z3 OP;L;10.6c;65
 r1
 !s85 0
 31
-Z4 !s108 1766107141.000000
+Z4 !s108 1766143282.000000
 Z5 !s107 .\src\SR.v|.\src\MEM.v|.\src\CU.v|.\src\IR.v|.\src\Reg32.v|.\src\MUX_4.v|.\src\SHL2.v|.\src\MUX_2.v|.\src\ALUCU.v|.\src\SigExt16_32.v|.\src\RF.v|.\src\ALU.v|.\src\PC.v|.\src\DataPath.v|./src/MIPS.v|
 Z6 !s90 -reportprogress|300|-work|work|./src/MIPS.v|
 !i113 1
@@ -164,15 +164,15 @@ R8
 n@m@i@p@s
 vmips_tb
 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1766107142
+R1
 !i10b 1
-!s100 kWI5166c9FRcAaL2=;4Jz3
-IHRjlZO`7e7G0C4;WGon<:2
+!s100 5c]9nck35ii0n8CIcN9Q<2
+I4g4NaDf<1C3PMGaC[oe1b1
 R2
 !s105 mips_tb_sv_unit
 S1
 R0
-w1766106807
+w1766142932
 8./sim/mips_tb.sv
 F./sim/mips_tb.sv
 L0 3
@@ -180,7 +180,7 @@ R3
 r1
 !s85 0
 31
-!s108 1766107142.000000
+R4
 !s107 ./sim/mips_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|./sim/mips_tb.sv|
 !i113 1

@@ -3,97 +3,97 @@
 # vmap work ./out/work 
 # Modifying modelsim.ini
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:47 on Dec 19,2025
+# Start time: 19:03:51 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/PC.v 
 # -- Compiling module PC
 # 
 # Top level modules:
 # 	PC
-# End time: 09:55:47 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:51 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:47 on Dec 19,2025
+# Start time: 19:03:51 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/IM.v 
 # -- Compiling module IM
 # 
 # Top level modules:
 # 	IM
-# End time: 09:55:47 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:51 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:47 on Dec 19,2025
+# Start time: 19:03:51 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/RF.v 
 # -- Compiling module RF
 # 
 # Top level modules:
 # 	RF
-# End time: 09:55:47 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:51 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:47 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/ALU.v 
 # -- Compiling module ALU
 # 
 # Top level modules:
 # 	ALU
-# End time: 09:55:47 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:52 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:47 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/ALUCU.v 
 # -- Compiling module ALUCU
 # 
 # Top level modules:
 # 	ALUCU
-# End time: 09:55:47 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:52 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:47 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/SigExt16_32.v 
 # -- Compiling module SigExt16_32
 # 
 # Top level modules:
 # 	SigExt16_32
-# End time: 09:55:47 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:52 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/MUX.v 
 # -- Compiling module MUX
 # 
 # Top level modules:
 # 	MUX
-# End time: 09:55:48 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:52 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/SHL2.v 
 # -- Compiling module SHL2
 # 
 # Top level modules:
 # 	SHL2
-# End time: 09:55:48 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:52 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/DM.v 
 # -- Compiling module DM
 # 
 # Top level modules:
 # 	DM
-# End time: 09:55:48 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:52 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/CU.v 
 # -- Compiling module CU
 # 
 # Top level modules:
 # 	CU
-# End time: 09:55:48 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:52 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:52 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/DataPath.v 
 # -- Compiling module PC
 # -- Compiling module ALU
@@ -107,10 +107,10 @@
 # 
 # Top level modules:
 # 	DataPath
-# End time: 09:55:48 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:53 on Dec 19,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:53 on Dec 19,2025
 # vlog -reportprogress 300 -work work ./src/MIPS.v 
 # -- Compiling module PC
 # -- Compiling module ALU
@@ -128,19 +128,19 @@
 # 
 # Top level modules:
 # 	MIPS
-# End time: 09:55:48 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:53 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:53 on Dec 19,2025
 # vlog -reportprogress 300 -work work -sv ./sim/mips_tb.sv 
 # -- Compiling module mips_tb
 # 
 # Top level modules:
 # 	mips_tb
-# End time: 09:55:48 on Dec 19,2025, Elapsed time: 0:00:00
+# End time: 19:03:53 on Dec 19,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -wlf ./out/mips_test.wlf -voptargs=""+acc"" work.mips_tb 
-# Start time: 09:55:48 on Dec 19,2025
+# Start time: 19:03:53 on Dec 19,2025
 # //  ModelSim DE-64 10.6c Jul 26 2017
 # //
 # //  Copyright 1991-2017 Mentor Graphics Corporation
@@ -169,6 +169,11 @@
 # Loading work.RF
 # Loading work.IM
 # Loading work.DM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: ./out/mips_test.wlf
+#           File in use by: 20174  Hostname: SCIZ  ProcessID: 24304
+#           Attempting to use alternate WLF file "./out/wlft85nds7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: ./out/mips_test.wlf
+#           Using alternate file: ./out/wlft85nds7
 # ========================================
 # 单周期MIPS CPU 计算结果验证测试
 # ========================================
@@ -183,88 +188,88 @@
 # ========================================
 # [Cycle 0] PC=0x00000000, Inst=0x20080005, ALU_Out=0x00000005
 #      ↳ ADDI
-# [Cycle 1] PC=0x00000004, Inst=0x20090003, ALU_Out=0x00000003
+# [Cycle 1] PC=0x00000000, Inst=0x20080005, ALU_Out=0x00000005
 #      ↳ ADDI
-# [Cycle 2] PC=0x00000008, Inst=0x01095020, ALU_Out=0x00000008
+# [Cycle 2] PC=0x00000004, Inst=0x20090003, ALU_Out=0x00000003
+#      ↳ ADDI
+# [Cycle 3] PC=0x00000008, Inst=0x01095020, ALU_Out=0x00000008
 #      ↳ ADD
-# [Cycle 3] PC=0x0000000c, Inst=0x01095822, ALU_Out=0x00000002
+# [Cycle 4] PC=0x0000000c, Inst=0x01095822, ALU_Out=0x00000002
 #      ↳ SUB
-# [Cycle 4] PC=0x00000010, Inst=0x01096024, ALU_Out=0x00000001
+# [Cycle 5] PC=0x00000010, Inst=0x01096024, ALU_Out=0x00000001
 #      ↳ AND
-# [Cycle 5] PC=0x00000014, Inst=0x01096825, ALU_Out=0x00000007
+# [Cycle 6] PC=0x00000014, Inst=0x01096825, ALU_Out=0x00000007
 #      ↳ OR
-# [Cycle 6] PC=0x00000018, Inst=0x01097026, ALU_Out=0x00000006
+# [Cycle 7] PC=0x00000018, Inst=0x01097026, ALU_Out=0x00000006
 #      ↳ XOR
-# [Cycle 7] PC=0x0000001c, Inst=0x20100008, ALU_Out=0x00000008
+# [Cycle 8] PC=0x0000001c, Inst=0x20100008, ALU_Out=0x00000008
 #      ↳ ADDI
-# [Cycle 8] PC=0x00000020, Inst=0x11500001, ALU_Out=0x00000000
+# [Cycle 9] PC=0x00000020, Inst=0x11500001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 9] PC=0x00000028, Inst=0x20110002, ALU_Out=0x00000002
+# [Cycle 10] PC=0x00000028, Inst=0x20110002, ALU_Out=0x00000002
 #      ↳ ADDI
-# [Cycle 10] PC=0x0000002c, Inst=0x11710001, ALU_Out=0x00000000
+# [Cycle 11] PC=0x0000002c, Inst=0x11710001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 11] PC=0x00000034, Inst=0x20120001, ALU_Out=0x00000001
+# [Cycle 12] PC=0x00000034, Inst=0x20120001, ALU_Out=0x00000001
 #      ↳ ADDI
-# [Cycle 12] PC=0x00000038, Inst=0x11920001, ALU_Out=0x00000000
+# [Cycle 13] PC=0x00000038, Inst=0x11920001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 13] PC=0x00000040, Inst=0x20130007, ALU_Out=0x00000007
+# [Cycle 14] PC=0x00000040, Inst=0x20130007, ALU_Out=0x00000007
 #      ↳ ADDI
-# [Cycle 14] PC=0x00000044, Inst=0x11b30001, ALU_Out=0x00000000
+# [Cycle 15] PC=0x00000044, Inst=0x11b30001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 15] PC=0x0000004c, Inst=0x20140006, ALU_Out=0x00000006
+# [Cycle 16] PC=0x0000004c, Inst=0x20140006, ALU_Out=0x00000006
 #      ↳ ADDI
-# [Cycle 16] PC=0x00000050, Inst=0x11d40001, ALU_Out=0x00000000
+# [Cycle 17] PC=0x00000050, Inst=0x11d40001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 17] PC=0x00000058, Inst=0x200400ff, ALU_Out=0x000000ff
+# [Cycle 18] PC=0x00000058, Inst=0x200400ff, ALU_Out=0x000000ff
 #      ↳ ADDI
-# [Cycle 18] PC=0x0000005c, Inst=0x3085000f, ALU_Out=0x0000000f
+# [Cycle 19] PC=0x0000005c, Inst=0x3085000f, ALU_Out=0x0000000f
 #      ↳ ANDI
-# [Cycle 19] PC=0x00000060, Inst=0x348600f0, ALU_Out=0x000000ff
+# [Cycle 20] PC=0x00000060, Inst=0x348600f0, ALU_Out=0x000000ff
 #      ↳ ORI
-# [Cycle 20] PC=0x00000064, Inst=0x388700aa, ALU_Out=0x00000055
+# [Cycle 21] PC=0x00000064, Inst=0x388700aa, ALU_Out=0x00000055
 #      ↳ XORI
-# [Cycle 21] PC=0x00000068, Inst=0x2015000f, ALU_Out=0x0000000f
+# [Cycle 22] PC=0x00000068, Inst=0x2015000f, ALU_Out=0x0000000f
 #      ↳ ADDI
-# [Cycle 22] PC=0x0000006c, Inst=0x10b50001, ALU_Out=0x00000000
+# [Cycle 23] PC=0x0000006c, Inst=0x10b50001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 23] PC=0x00000074, Inst=0x201600ff, ALU_Out=0x000000ff
+# [Cycle 24] PC=0x00000074, Inst=0x201600ff, ALU_Out=0x000000ff
 #      ↳ ADDI
-# [Cycle 24] PC=0x00000078, Inst=0x10d60001, ALU_Out=0x00000000
+# [Cycle 25] PC=0x00000078, Inst=0x10d60001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 25] PC=0x00000080, Inst=0x20170055, ALU_Out=0x00000055
+# [Cycle 26] PC=0x00000080, Inst=0x20170055, ALU_Out=0x00000055
 #      ↳ ADDI
-# [Cycle 26] PC=0x00000084, Inst=0x10f70001, ALU_Out=0x00000000
+# [Cycle 27] PC=0x00000084, Inst=0x10f70001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 27] PC=0x0000008c, Inst=0xac080000, ALU_Out=0x00000000
+# [Cycle 28] PC=0x0000008c, Inst=0xac080000, ALU_Out=0x00000000
 #      ↳ SW
-# [Cycle 28] PC=0x00000090, Inst=0x8c020000, ALU_Out=0x00000000
+# [Cycle 29] PC=0x00000090, Inst=0x8c020000, ALU_Out=0x00000000
 #      ↳ LW
-# [Cycle 29] PC=0x00000094, Inst=0x10480001, ALU_Out=0x00000000
+# [Cycle 30] PC=0x00000094, Inst=0x10480001, ALU_Out=0x00000000
 #      ↳ BEQ: 条件不成立，顺序执行
-# [Cycle 30] PC=0x0000009c, Inst=0x201a0001, ALU_Out=0x00000001
+# [Cycle 31] PC=0x0000009c, Inst=0x201a0001, ALU_Out=0x00000001
 #      ↳ ADDI
-# [Cycle 31] PC=0x000000a0, Inst=0xac1a000c, ALU_Out=0x0000000c
+# [Cycle 32] PC=0x000000a0, Inst=0xac1a000c, ALU_Out=0x0000000c
 #      ↳ SW
-# [Cycle 32] PC=0x000000a4, Inst=0x0810002d, ALU_Out=0x0000002d
+# [Cycle 33] PC=0x000000a4, Inst=0x0810002d, ALU_Out=0x0000002d
 #      ✅ 执行成功跳转指令！跳转到success_loop
 #      ↳ 目标地址: 0x004000b4
 #      ↳ J
-# [Cycle 33] PC=0x004000b4, Inst=0x20025555, ALU_Out=0x00005555
+# [Cycle 34] PC=0x004000b4, Inst=0x20025555, ALU_Out=0x00005555
 #      ↳ ADDI
-# [Cycle 34] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 35] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 36] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 37] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 38] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 39] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 40] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
-#      🔄 检测到循环，指令0x3c010000连续执行5次
 # [Cycle 41] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
+#      🔄 检测到循环，指令0x3c010000连续执行5次
 # [Cycle 42] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 43] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 44] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 # [Cycle 45] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
-#      🔄 稳定循环中...
 # [Cycle 46] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
 #      🔄 稳定循环中...
 # [Cycle 47] PC=0x004000b8, Inst=0x3c010000, ALU_Out=0x00000000
@@ -327,10 +332,5 @@
 # 32'h00000001
 # 32'h00000000
 # 32'h0000004a
-# ** Error: invalid command name "Cycle"
-# Error in macro ./scripts/run_mips.do line 155
-# invalid command name "Cycle"
-#     while executing
-# "Cycle"
-#     invoked from within
-# "puts "1. ��6���[Cycle]�o""
+# 0 ps
+# 1575 ns
