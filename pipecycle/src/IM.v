@@ -6,8 +6,8 @@ module IM(
 );
     reg[31:0] mem [127:0];  
     initial begin
-        $readmemh("test_all.txt", mem);
+        $readmemh("./asm/basic.txt", mem);
     end
-    assign inst = mem[addr[6:0]];
+    assign inst = mem[addr[8:2]];
     
 endmodule

@@ -1,51 +1,52 @@
-module Hazard_Detection (
-    // 输入
-    input EX_MA_Flag_ZF,      // EX阶段的零标志
-    input EX_MA_Flag_Branch,  // EX阶段是否是分支指令
-    input EX_Jump,            // EX阶段是否是跳转指令
-    input EX_MemRD,           // EX阶段是否是load指令
-    input [4:0] ID_Rs,        // ID阶段的rs
-    input [4:0] ID_Rt,        // ID阶段的rt  
-    input [4:0] EX_Rt,        // EX阶段的rt
-    
-    // 输出
-    output reg clear1,        // 清空EX_MA前的MUX
-    output reg clear0,        // 清空ID/EX前的MUX  
-    output reg FI_ID_RegWr,   // IF/ID寄存器写使能
-    output reg PCWr           // PC寄存器写使能
+module Hazard_Unit (
+    input clk,
+    input rst,
+    input ID_EX_MemRd,
+    input ID_EX_Jump,
+    input EX_MA_Branch,
+    input [4:0]FI_ID_Rs,
+    input [4:0]FI_ID_Rt,
+    input [4:0] ID_EX_IR_Rt,
+    input EX_MA_Flag_ZF,
+    output PCWr,
+    output IF_ID_RegWr,
+    output clear0,
+    output clear1,
+    output flush
 );
+    reg[1:0] times;
+    // 检测load-use数据冒险
+    assign load_use_hazard = ID_EX_MemRd && 
+                            ((FI_ID_Rs == ID_EX_IR_Rt) || 
+                             (FI_ID_Rt == ID_EX_IR_Rt));
+    
+    // 控制冒险
+    assign branch_taken = EX_MA_Branch && EX_MA_Flag_ZF;
+    
+    // 输出逻辑
+    // load-use冒险时：暂停PC和IF/ID，清除ID阶段控制信号
+    // 控制冒险时：暂停PC和IF/ID，清除ID和EX阶段控制信号
+    wire hazard_detected = load_use_hazard || branch_taken || ID_EX_Jump;
+    
+    //assign PCWr = ~hazard_detected;
+    assign PCWr= ~(load_use_hazard );
+    //assign IF_ID_RegWr = ~hazard_detected;
+    assign flush=branch_taken;
+    assign IF_ID_RegWr= ~(load_use_hazard );
+    // clear0: 清除ID阶段控制信号
+    // 需要：load-use冒险、分支跳转
+    assign clear0 = load_use_hazard || branch_taken || ID_EX_Jump||(times!=0);
 
-always @(*) begin
-    // 默认值
-    clear1 = 1'b0;
-    clear0 = 1'b0;
-    FI_ID_RegWr = 1'b1;
-    PCWr = 1'b1;
-    
-    // 1. 分支跳转（需要清空）
-    if (EX_MA_Flag_Branch && EX_MA_Flag_ZF) begin
-        // 分支成立，清空流水线中的错误指令
-        clear1 = 1'b1;   // 清空EX_MA路径
-        clear0 = 1'b1;   // 清空ID/EX路径
-        // PC继续从分支目标取指
-    end
-    
-    // 2. 跳转指令
-    else if (EX_Jump) begin
-        // 跳转，清空流水线
-        clear1 = 1'b1;
-        clear0 = 1'b1;
-    end
-    
-    // 3. load-use冒险
-    else if (EX_MemRD && (EX_Rt != 5'b0)) begin
-        if ((EX_Rt == ID_Rs) || (EX_Rt == ID_Rt)) begin
-            // 暂停，不清空
-            FI_ID_RegWr = 1'b0;
-            PCWr = 1'b0;
-            // clear保持0（不清空）
+    // clear1: 清除EX阶段控制信号
+    // 只需要：分支跳转（load-use冒险不清除EX）
+    assign clear1 = branch_taken;
+    always @(posedge clk or rst) begin
+        if(rst)
+            times <= 2'b00;
+        if(ID_EX_Jump)
+            times <= 2'b10;
+        if(times!=0)begin
+            times<=times-1;
         end
     end
-end
-
 endmodule

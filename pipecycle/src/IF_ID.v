@@ -3,26 +3,26 @@ module IF_ID (
     input clk,
     input rst,
     input FI_ID_RegWr,     // 来自冒险检测单元（写使能）
-    input [31:0] inst_in,
-    input [31:0] pc4_in,
-    output reg [31:0] inst_out,
-    output reg [31:0] pc4_out
+    input [31:0] inst_f,
+    input [31:0] pcplus4f,
+    input flush,
+    output reg [31:0] inst_d,
+    output reg [31:0] pcplus4d
 );
-
-// stall信号：当FI_ID_RegWr=0时暂停
-wire stall = !FI_ID_RegWr;
-
-always @(posedge clk or posedge rst) begin
-    if (rst) begin
-        inst_out <= 32'h00000020;  // NOP指令
-        pc4_out <= 32'h00000000;
+ // 寄存器更新逻辑
+    always @(posedge clk or posedge rst) begin
+        if (rst|flush) begin
+            // 复位时清空流水线寄存器
+            inst_d <= 32'b0;
+            pcplus4d <= 32'b0;
+        end
+        else if (FI_ID_RegWr) begin
+            // 当写使能有效时，更新流水线寄存器
+            inst_d <= inst_f;
+            pcplus4d <= pcplus4f;
+        end
+        // 注意：如果 FI_ID_RegWr 为 0，寄存器保持原值（流水线停顿）
     end
-    else if (!stall) begin
-        // 只有FI_ID_RegWr=1时才更新
-        inst_out <= inst_in;
-        pc4_out <= pc4_in;
-    end
-    // stall=1时：保持原值（不写）
-end
+
 
 endmodule
